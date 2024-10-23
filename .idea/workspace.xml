@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57785474-7517-4378-a864-c4b1d676bb46" name="변경" comment="엑셀">
+    <list default="true" id="57785474-7517-4378-a864-c4b1d676bb46" name="변경" comment="엑셀 읽기">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Project6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Project5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Project5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$bookList.xls" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,21 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "jbkim08"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jbkim08&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/jbkim08/jsoupCrawling.git",
-    "accountId": "54298c2c-1209-43c8-894f-66a14c242067"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jbkim08/jsoupCrawling.git&quot;,
+    &quot;accountId&quot;: &quot;54298c2c-1209-43c8-894f-66a14c242067&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2nobcbrCAxp0RXAmC6mfPs6xRyo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,38 +47,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/it/IdeaProjects/jsoupCrawling/src/main/java/org/example/Main.java",
-    "vue.rearranger.settings.migration": "true",
-    "애플리케이션.Project1.executor": "Run",
-    "애플리케이션.Project2.executor": "Run",
-    "애플리케이션.Project3.executor": "Run",
-    "애플리케이션.Project4.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/it/IdeaProjects/jsoupCrawling/src/main/java/org/example/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;애플리케이션.Project1.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Project2.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Project3.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Project4.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Project5.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Project6.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="애플리케이션.Project5">
-    <configuration name="Project1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Project1" />
-      <module name="jsoupCrawling" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="애플리케이션.Project6">
     <configuration name="Project2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Project2" />
       <module name="jsoupCrawling" />
@@ -130,13 +125,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Project6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Project6" />
+      <module name="jsoupCrawling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Project6" />
         <item itemvalue="애플리케이션.Project5" />
         <item itemvalue="애플리케이션.Project4" />
         <item itemvalue="애플리케이션.Project3" />
         <item itemvalue="애플리케이션.Project2" />
-        <item itemvalue="애플리케이션.Project1" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +164,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729642456605</updated>
-      <workItem from="1729642457577" duration="10231000" />
+      <workItem from="1729642457577" duration="11484000" />
+      <workItem from="1729664667059" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="크롤링">
       <option name="closed" value="true" />
@@ -174,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729662874023</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="엑셀 읽기">
+      <option name="closed" value="true" />
+      <created>1729663506682</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729663506682</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +200,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="크롤링" />
     <MESSAGE value="엑셀" />
-    <option name="LAST_COMMIT_MESSAGE" value="엑셀" />
+    <MESSAGE value="엑셀 읽기" />
+    <option name="LAST_COMMIT_MESSAGE" value="엑셀 읽기" />
   </component>
 </project>
