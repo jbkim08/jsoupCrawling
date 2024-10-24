@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57785474-7517-4378-a864-c4b1d676bb46" name="변경" comment="주식 엑셀 읽기2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Project7.java" afterDir="false" />
+    <list default="true" id="57785474-7517-4378-a864-c4b1d676bb46" name="변경" comment="무한반복 프로그램">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Project7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Project7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,28 +47,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/it/IdeaProjects/jsoupCrawling/src/main/java/org/example/Main.java",
-    "vue.rearranger.settings.migration": "true",
-    "애플리케이션.Project1.executor": "Run",
-    "애플리케이션.Project2.executor": "Run",
-    "애플리케이션.Project3.executor": "Run",
-    "애플리케이션.Project4.executor": "Run",
-    "애플리케이션.Project5.executor": "Run",
-    "애플리케이션.Project6.executor": "Run",
-    "애플리케이션.Project7.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/it/IdeaProjects/jsoupCrawling/src/main/java/org/example/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;애플리케이션.Project1.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Project2.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Project3.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Project4.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Project5.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Project6.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Project7.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example" />
@@ -168,7 +169,8 @@
       <workItem from="1729642457577" duration="11484000" />
       <workItem from="1729664667059" duration="2796000" />
       <workItem from="1729668761228" duration="616000" />
-      <workItem from="1729729179722" duration="996000" />
+      <workItem from="1729729179722" duration="5015000" />
+      <workItem from="1729734475876" duration="1190000" />
     </task>
     <task id="LOCAL-00001" summary="크롤링">
       <option name="closed" value="true" />
@@ -210,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729729210175</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="무한반복 프로그램">
+      <option name="closed" value="true" />
+      <created>1729730316544</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729730316544</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +232,7 @@
     <MESSAGE value="엑셀 읽기" />
     <MESSAGE value="주식 엑셀 읽기" />
     <MESSAGE value="주식 엑셀 읽기2" />
-    <option name="LAST_COMMIT_MESSAGE" value="주식 엑셀 읽기2" />
+    <MESSAGE value="무한반복 프로그램" />
+    <option name="LAST_COMMIT_MESSAGE" value="무한반복 프로그램" />
   </component>
 </project>
