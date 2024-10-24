@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57785474-7517-4378-a864-c4b1d676bb46" name="변경" comment="책 리스트 확인">
+    <list default="true" id="57785474-7517-4378-a864-c4b1d676bb46" name="변경" comment="엑셀에 저장">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Project7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Project7.java" afterDir="false" />
     </list>
@@ -169,7 +169,7 @@
       <workItem from="1729664667059" duration="2796000" />
       <workItem from="1729668761228" duration="616000" />
       <workItem from="1729729179722" duration="5015000" />
-      <workItem from="1729734475876" duration="6881000" />
+      <workItem from="1729734475876" duration="7313000" />
     </task>
     <task id="LOCAL-00001" summary="크롤링">
       <option name="closed" value="true" />
@@ -243,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729737380736</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="엑셀에 저장">
+      <option name="closed" value="true" />
+      <created>1729746045106</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729746045106</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +267,7 @@
     <MESSAGE value="책정보를 객체로 리턴" />
     <MESSAGE value="책정보를 객체로 리턴2" />
     <MESSAGE value="책 리스트 확인" />
-    <option name="LAST_COMMIT_MESSAGE" value="책 리스트 확인" />
+    <MESSAGE value="엑셀에 저장" />
+    <option name="LAST_COMMIT_MESSAGE" value="엑셀에 저장" />
   </component>
 </project>

@@ -152,13 +152,14 @@ public class Project7 {
     // 엑셀에 북리스트에 담긴 데이터 저장
     private static void exelInput() {
         try {
+            //가상의 엑셀 시트를 생성
             HSSFSheet sheet = null;
             if(workBook.getSheet("Book SHEET") != null ) {
                 sheet = workBook.getSheet("Book SHEET");
             } else {
                 sheet = workBook.createSheet("BOOK SHEET");
             }
-
+            //엑셀 시트에 첫줄 만들기 (제목들 입력 열이 5개)
             HSSFRow rowA = sheet.createRow(0);
             HSSFCell cellA = rowA.createCell(0);
             cellA.setCellValue(new HSSFRichTextString("책제목"));
@@ -171,9 +172,10 @@ public class Project7 {
             HSSFCell cellE = rowA.createCell(4);
             cellE.setCellValue(new HSSFRichTextString("이미지주소"));
 
-            int i=1;
+            //북리스트의 데이터를 가상의 엑셀시트에 넣기
+            int i=1; //첫줄은 스킵 1부터
             for(ExelVO book : bookList) {
-                HSSFRow row = sheet.createRow(i++);
+                HSSFRow row = sheet.createRow(i++); //반복문이 진행될때마다 다음줄 만듬
                 row.createCell(0).setCellType(CellType.STRING);
                 row.createCell(0).setCellValue(book.getTitle());
                 row.createCell(1).setCellType(CellType.STRING);
@@ -185,9 +187,9 @@ public class Project7 {
                 row.createCell(4).setCellType(CellType.STRING);
                 row.createCell(4).setCellValue(book.getImgurl());
             }
-
+            //프로젝트 폴더에 엑셀파일을 생성
             FileOutputStream fos = new FileOutputStream("BookList.xls");
-            workBook.write(fos);
+            workBook.write(fos); //가상의 엑셀시트 내용을 파일에 담기
             fos.close();
             System.out.println("엑셀로 저장 성공!");
         } catch (Exception e) {
