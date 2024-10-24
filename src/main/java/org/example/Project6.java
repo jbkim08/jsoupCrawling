@@ -36,11 +36,24 @@ public class Project6 {
                 //한줄의 데이터를 자바 객체에 넣어서 만듬
                 list.put(temp[3], temp[1]);
             }
-            showExelData(list); //엑셀파일의 모든 데이터를 한줄씩 출력하자.
+            //showExelData(list); //엑셀파일의 모든 데이터를 한줄씩 출력하자.
+            showZusicCode(list);
         } catch (Exception e) {
             e.printStackTrace();
         }
 
+    }
+
+    /**
+     * 주식명을 입력하면 종목코드를 출력해줌
+     */
+    private static void showZusicCode(Map<String, String> list) {
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            System.out.print("주식명을 입력: ");
+            String name = scanner.nextLine();
+            System.out.println(list.get(name));
+        }
     }
 
     private static void showExelData(Map<String, String> list) {
