@@ -88,7 +88,7 @@ public class Project7 {
             while ((line = br.readLine()) != null) {
                 sb.append(line);
             }
-            System.out.println(sb.toString());
+            //System.out.println(sb.toString());
             br.close();
             conn.disconnect();
 
