@@ -10,11 +10,14 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Project7 {
 
     static final Scanner scanner = new Scanner(System.in);
+    static List<ExelVO> bookList = new ArrayList<>();
 
     public static void main(String[] args) {
         /* 계속 실행되게! */
@@ -55,7 +58,15 @@ public class Project7 {
         System.out.print("책 검색 : ");
         String query = scanner.nextLine().trim();
         ExelVO vo = getNaverAPI(query);
+        if(vo == null) return; // 메서드 종료
 
+        System.out.print("검색된 책을 저장? (y/n) 선택 : ");
+        if(scanner.nextLine().toLowerCase().charAt(0) == 'y') {
+            bookList.add(vo);
+            System.out.println("책이 저장됩니다.");
+        } else {
+            System.out.println("책이 저장되지 않습니다.");
+        }
     }
 
     /**
@@ -125,7 +136,13 @@ public class Project7 {
     }
 
     private static void listCheck() {
-        System.out.println("책 리스트를 확인합니다.");
+       if(bookList.isEmpty()){
+           System.out.println("리스트에 저장된 책이 없습니다.");
+       } else {
+           for (ExelVO vo : bookList) {
+               System.out.println(vo);
+           }
+       }
     }
 
     private static void exelInput() {
